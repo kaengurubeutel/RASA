@@ -132,6 +132,8 @@ nlu:
   examples: |
     - why do you have ears?
     - what are these ears?
+    - what are these enormous ears?
+    - why do you have such enormous ears?
     - what do you do with those ears?
 
 - intent: what_do_you_do
@@ -167,3 +169,4 @@ nlu:
     - how do you feel?
     - i hope you feel good
     - you're ok?
+    - are you alright?
