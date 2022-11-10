@@ -4,28 +4,28 @@ nlu:
 
 - lookup: organs
   examples: |
-    - Ear
-    - Nose
-    - Eye
-    - Skin
-    - Tounge
-    - Brain
-    - Salivary glands
-    - Parotid glands
-    - Submandibular glands
-    - Sublingual glands
-    - Pharynx
-    - Esophagus
-    - Stomach
-    - Small intestine
-    - Duodenum
-    - Jejunum
-    - Ileum  
-    - Large intestine
-    - Liver
-    - Gallbladder
-    - Mesentery
-    - Pancreas
+    - ear
+    - nose
+    - eye
+    - skin
+    - tounge
+    - brain
+    - salivary glands
+    - parotid glands
+    - submandibular glands
+    - sublingual glands
+    - pharynx
+    - esophagus
+    - stomach
+    - small intestine
+    - duodenum
+    - jejunum
+    - ileum  
+    - large intestine
+    - liver
+    - gallbladder
+    - mesentery
+    - pancreas
 
 
 - intent: greet
