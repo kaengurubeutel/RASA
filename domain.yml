@@ -1,5 +1,16 @@
 version: "3.1"
 
+entities: 
+ - organs:
+    influence_conversation: true
+
+slots:
+  fav_organ:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: fav_organ
+
 intents:
   - greet
   - goodbye
@@ -10,6 +21,10 @@ intents:
   - bot_challenge
   - ear_challenge
   - what_do_you_do
+  - tell_fav_organ
+  - answer_why_do_you_bother_to_ask_ears
+  - ask_if_bot_is_ok
+
 
 
 
@@ -24,20 +39,18 @@ responses:
   utter_greet:
   - text: "Hey! How are you and especialy your organs?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  utter_roast:
+  - text: "Great that made my day a little bit better. What is your favourite organ?"
 
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"
 
 session_config:
   session_expiration_time: 60
