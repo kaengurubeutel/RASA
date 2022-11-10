@@ -1,6 +1,33 @@
 version: "3.1"
 
 nlu:
+
+- lookup: organs
+  examples: |
+    - Ear
+    - Nose
+    - Eye
+    - Skin
+    - Tounge
+    - Brain
+    - Salivary glands
+    - Parotid glands
+    - Submandibular glands
+    - Sublingual glands
+    - Pharynx
+    - Esophagus
+    - Stomach
+    - Small intestine
+    - Duodenum
+    - Jejunum
+    - Ileum  
+    - Large intestine
+    - Liver
+    - Gallbladder
+    - Mesentery
+    - Pancreas
+
+
 - intent: greet
   examples: |
     - hey
@@ -65,6 +92,10 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - good, i guess
+    - good
+    
+
 
 - intent: mood_unhappy
   examples: |
@@ -83,6 +114,11 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - not good
+    - not that good
+    - not especially good
+    - not that good at the moment
+
 
 - intent: bot_challenge
   examples: |
@@ -105,5 +141,29 @@ nlu:
     - what is your meaning?
     - why are you here?
 
+- intent: tell_fav_organ
+  examples: |
+    - the [Heart] {"entity":"organs"} I guess
+    - it's the [Heart] {"entity":"organs"}!
+    - I totally love the [Heart] {"entity":"organs"}
+    - the [Heart] {"entity":"organs"}
+    - I'm in love with the [Heart] {"entity":"organs"}
+    - I like the [Heart] {"entity":"organs"}
+    - I totally like the [Heart] {"entity":"organs"}
+    - The [Heart] {"entity":"organs"} is my favourite Organ
 
 
+- intent: answer_why_do_you_bother_to_ask_ears
+  examples: |
+    - it's a little uncommon for a bot to have ears
+    - i never saw a bot heaving ears 
+    - it is a little bit unusual for a bot to have ears
+    - bots ususally dont have ears
+
+
+- intent: ask_if_bot_is_ok
+  examples: |
+    - are you ok?
+    - how do you feel?
+    - i hope you feel good
+    - you're ok?
