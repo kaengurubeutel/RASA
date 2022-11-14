@@ -1,0 +1,6 @@
+[
+  {
+    "name": "organs",
+    "pattern": "(\\bear\\b|\\bnose\\b|\\beye\\b|\\bskin\\b|\\btounge\\b|\\bbrain\\b|\\bsalivary\\ glands\\b|\\bparotid\\ glands\\b|\\bsubmandibular\\ glands\\b|\\bsublingual\\ glands\\b|\\bpharynx\\b|\\besophagus\\b|\\bstomach\\b|\\bsmall\\ intestine\\b|\\bduodenum\\b|\\bjejunum\\b|\\bileum\\b|\\blarge\\ intestine\\b|\\bliver\\b|\\bgallbladder\\b|\\bmesentery\\b|\\bpancreas\\b)"
+  }
+]
