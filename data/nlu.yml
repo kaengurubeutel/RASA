@@ -4,28 +4,28 @@ nlu:
 
 - lookup: organs
   examples: |
-    - ear
-    - nose
-    - eye
-    - skin
-    - tounge
-    - brain
-    - salivary glands
-    - parotid glands
-    - submandibular glands
-    - sublingual glands
-    - pharynx
-    - esophagus
-    - stomach
-    - small intestine
-    - duodenum
-    - jejunum
-    - ileum  
-    - large intestine
-    - liver
-    - gallbladder
-    - mesentery
-    - pancreas
+    - Ear
+    - Nose
+    - Eye
+    - Skin
+    - Tounge
+    - Brain
+    - Salivary glands
+    - Parotid glands
+    - Submandibular glands
+    - Sublingual glands
+    - Pharynx
+    - Esophagus
+    - Stomach
+    - Small intestine
+    - Duodenum
+    - Jejunum
+    - Ileum  
+    - Large intestine
+    - Liver
+    - Gallbladder
+    - Mesentery
+    - Pancreas
 
 
 - intent: greet
@@ -43,6 +43,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - yo what's up
+    - heyho
 
 - intent: goodbye
   examples: |
@@ -118,6 +120,7 @@ nlu:
     - not that good
     - not especially good
     - not that good at the moment
+    - terrrified
 
 
 - intent: bot_challenge
@@ -169,4 +172,27 @@ nlu:
     - how do you feel?
     - i hope you feel good
     - you're ok?
+    - you're fine?
+    - you're alright?
     - are you alright?
+    - are you fine?
+    - i hope you are fine?
+    - is everything ok?
+    - is everything ok with you?
+    - is everything alright?
+    - is everything alright with you?
+    - is everything fine?
+    - is everything fine with you?
+
+- intent: example_number
+  examples: |
+    - 1000010
+    - it is 1000010
+    - is 1000010
+
+- intent: give_time
+  examples: |
+    - can you tell what time it is
+    - tell me the time
+    - got the time
+    - what time is it
