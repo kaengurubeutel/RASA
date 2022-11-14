@@ -11,6 +11,7 @@ stories:
   - intent: tell_fav_organ
     entities:
     - organs: "Heart"
+  - action: action_give_slot
   - action: utter_disagree_with_organ
 
 - story: cringe at organ path
@@ -22,6 +23,7 @@ stories:
   - intent: tell_fav_organ
     entities:
     - organs: "Brain"
+  - action: action_give_slot
   - action: utter_agree_with_organ
 
 - story: happy path
@@ -31,5 +33,6 @@ stories:
   - intent: mood_great
   - action: utter_roast
   - intent: tell_fav_organ
+  - action: action_give_slot
   - action: utter_organ_default
   
