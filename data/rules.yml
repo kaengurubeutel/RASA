@@ -28,7 +28,7 @@ rules:
   - intent: example_number
   - action: utter_fuck_you
 
-#- rule: give time rule
- # steps:
-  #- intent: give_time
-  #- action: action_show_time
+- rule: give time rule
+  steps:
+  - intent: give_time
+  - action: action_show_time

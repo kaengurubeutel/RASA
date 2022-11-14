@@ -9,7 +9,7 @@ slots:
     type: text
     mappings:
     - type: from_entity
-      entity: fav_organ
+      entity: organs
 
 intents:
   - greet
@@ -17,19 +17,17 @@ intents:
   - affirm
   - deny
   - mood_great
-  - mood_unhappy
+  - mood_unhappyze
   - bot_challenge
   - ear_challenge
   - what_do_you_do
   - tell_fav_organ
   - answer_why_do_you_bother_to_ask_ears
   - ask_if_bot_is_ok
-
-
-
+  - example_number
+  - give_time
 
 responses:
-
   utter_what_do_you_do?:
   - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"
   
@@ -45,6 +43,14 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
+  utter_disagree_with_organ:
+  - text: "Ah! I actually like ears the most. I like to slice them and dice them and consume their entire beeing, until nothing of their existence is left."
+
+  utter_agree_with_organ:
+  - text: "Ah! You're a smart one? Aren't you?"
+
+  utter_organ_default:
+  - text: "Ah! That's very interesting but also kind of weird isn't?"
 
   utter_goodbye:
   - text: "Bye"
@@ -53,7 +59,10 @@ responses:
   - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"
 
   utter_fuck_you:
-  - text: "Fuck you man. Fuck rasa man!"
+  - text: "Fuck you man"
+
+actions:
+  - action_show_time
 
 session_config:
   session_expiration_time: 60

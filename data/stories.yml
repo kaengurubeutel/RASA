@@ -2,6 +2,28 @@ version: "3.1"
 
 stories:
 
+- story: cringe at organ path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_roast
+  - intent: tell_fav_organ
+    entities:
+    - organs: "Heart"
+  - action: utter_disagree_with_organ
+
+- story: cringe at organ path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_roast
+  - intent: tell_fav_organ
+    entities:
+    - organs: "Brain"
+  - action: utter_agree_with_organ
+
 - story: happy path
   steps:
   - intent: greet
@@ -9,4 +31,5 @@ stories:
   - intent: mood_great
   - action: utter_roast
   - intent: tell_fav_organ
+  - action: utter_organ_default
   
