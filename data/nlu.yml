@@ -156,7 +156,22 @@ nlu:
     - I like the [Heart] {"entity":"organs"}
     - I totally like the [Heart] {"entity":"organs"}
     - The [Heart] {"entity":"organs"} is my favourite Organ
-
+    - the [Brain] {"entity":"organs"} I guess
+    - it's the [Brain] {"entity":"organs"}!
+    - I totally love the [Brain] {"entity":"organs"}
+    - the [Brain] {"entity":"organs"}
+    - I'm in love with the [Brain] {"entity":"organs"}
+    - I like the [Brain] {"entity":"organs"}
+    - I totally like the [Brain] {"entity":"organs"}
+    - The [Brain] {"entity":"organs"} is my favourite Organ
+    - the [Eye] {"entity":"organs"} I guess
+    - it's the [Eye] {"entity":"organs"}!
+    - I totally love the [Eye] {"entity":"organs"}
+    - the [Eye] {"entity":"organs"}
+    - I'm in love with the [Eye] {"entity":"organs"}
+    - I like the [Eye] {"entity":"organs"}
+    - I totally like the [Eye] {"entity":"organs"}
+    - The [Eye] {"entity":"organs"} is my favourite Organ
 
 - intent: answer_why_do_you_bother_to_ask_ears
   examples: |

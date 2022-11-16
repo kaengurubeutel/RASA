@@ -13,6 +13,9 @@ pipeline:
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
   - name: RegexFeaturizer
+  - name: RegexEntityExtractor
+    # use lookup tables to extract entities
+    use_lookup_tables: True
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
