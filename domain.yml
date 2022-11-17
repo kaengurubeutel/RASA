@@ -10,6 +10,7 @@ slots:
     mappings:
     - type: from_entity
       entity: organs
+      intent: tell_fav_organ
 
 intents:
   - greet
@@ -51,6 +52,9 @@ responses:
 
   utter_organ_default:
   - text: "Ah! That's very interesting but also kind of weird isn't?"
+
+  utter_you_are_beautiful:
+  - text: "You  are beautiful!"
 
   utter_goodbye:
   - text: "Bye"
