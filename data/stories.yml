@@ -2,37 +2,59 @@ version: "3.1"
 
 stories:
 
-- story: cringe at organ path
+- story: great mood
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
+  - action: utter_roast
+
+- story: unhappy mood
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_you_are_beautiful
+  - action: utter_roast
+
+- story: cringe at organ path
+  steps:
   - action: utter_roast
   - intent: tell_fav_organ
     entities:
     - organs: "Heart"
   - action: action_give_slot
   - action: utter_disagree_with_organ
+  - action: utter_not_sell_organs
+  - action: utter_goodbye
 
-- story: cringe at organ path
+- story: pleased at organ path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
   - action: utter_roast
   - intent: tell_fav_organ
     entities:
     - organs: "Brain"
   - action: action_give_slot
   - action: utter_agree_with_organ
+  - action: utter_sell_organs
 
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
   - action: utter_roast
   - intent: tell_fav_organ
   - action: action_give_slot
   - action: utter_organ_default
+  - action: utter_sell_organs
   
+- story: sell organs affirm
+  steps: 
+  - action: utter_sell_organs
+  - intent: affirm
+  - action: utter_confirm_purchase
+  - action: utter_goodbye
+
+- story: sell organs affirm
+  steps:
+  - action: utter_sell_organs
+  - intent: deny
+  - action: utter_goodbye

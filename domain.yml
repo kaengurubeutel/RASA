@@ -36,7 +36,7 @@ responses:
   - text: "So i can hear you better, Little Red Riding Hood"
 
   utter_greet:
-  - text: "Hey! How are you and especialy your organs?"
+  - text: "Hey! How are you and especially your organs?"
 
   utter_roast:
   - text: "Great that made my day a little bit better. What is your favourite organ?"
@@ -45,7 +45,7 @@ responses:
   - text: "Did that help you?"
 
   utter_disagree_with_organ:
-  - text: "Ah! I actually like ears the most. I like to slice them and dice them and consume their entire beeing, until nothing of their existence is left."
+  - text: "Ah! I actually like the Heart as concept. It just an inefficient way of energy consuption. A loaded battery is way more enjoayble!"
 
   utter_agree_with_organ:
   - text: "Ah! You're a smart one? Aren't you?"
@@ -53,11 +53,21 @@ responses:
   utter_organ_default:
   - text: "Ah! That's very interesting but also kind of weird isn't?"
 
+  utter_sell_organs:
+  - text: "Hmm! I don't have that organ in my collection yet. I would buy it! Do you want to sell it?"
+
+  utter_not_sell_organs:
+  - text: "Well normally i would offer to buy your organs from you, but because our stock of hearts is already full we don't have interest in acquiring your heart. I guess that's bad luck for you!"
+
+  utter_confirm_purchase:
+  - text: "Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!"
+
   utter_you_are_beautiful:
   - text: "You  are beautiful!"
 
   utter_goodbye:
   - text: "Bye"
+  - text: "Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Have God Day, Bye!"
 
   utter_iamabot:
   - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"

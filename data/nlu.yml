@@ -67,6 +67,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - i think so
+    - agreed
 
 - intent: deny
   examples: |
@@ -77,6 +79,7 @@ nlu:
     - don't like that
     - no way
     - not really
+    - i disagree
 
 - intent: mood_great
   examples: |
