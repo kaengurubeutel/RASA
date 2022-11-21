@@ -59,6 +59,12 @@ responses:
   utter_not_sell_organs:
   - text: "Well normally i would offer to buy your organs from you, but because our stock of hearts is already full we don't have interest in acquiring your heart. I guess that's bad luck for you!"
 
+  utter_ask_job:
+  - text: "For organ liability purposes, we still need your current job. Where do you work and what is your job?"
+
+  utter_job_confirmation:
+  - text: "Ah that`s good, based on your job alone we think your organs are still usable and not already degraded!"
+
   utter_confirm_purchase:
   - text: "Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!"
 

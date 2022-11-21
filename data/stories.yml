@@ -51,6 +51,9 @@ stories:
   - action: utter_sell_organs
   - intent: affirm
   - action: utter_confirm_purchase
+  - action: utter_ask_job
+  - intent: job
+  - action: utter_job_confirmation
   - action: utter_goodbye
 
 - story: sell organs affirm
