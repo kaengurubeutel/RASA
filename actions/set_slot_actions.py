@@ -1,5 +1,6 @@
 from typing import Any, Text, Dict, List
 
+from rasa.sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
@@ -8,13 +9,13 @@ from rasa_sdk.executor import CollectingDispatcher
 class ActionGiveSlot(Action):
 
      def name(self) -> Text:
-         return "action_give_slot"
+         return "action_set_slot"
 
      def run(self, dispatcher: CollectingDispatcher,
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-         slot = tracker.get_Slot("fav_organ")
-         dispatcher.utter_message(text=f"This is the slot: {slot}")
+         organ = tracker.latest_message("fav_organ")
+         dispatcher.utter_message(text=f"This is the organ: {organ}")
          
-         return []
+         return [SlotSet("fav_organ", organ)]

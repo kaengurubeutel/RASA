@@ -83,6 +83,7 @@ responses:
 
 actions:
   - action_show_time
+  - action_set_slot
   - action_give_slot
 
 session_config:
