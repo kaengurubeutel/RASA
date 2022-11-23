@@ -18,11 +18,12 @@ intents:
   - affirm
   - deny
   - mood_great
-  - mood_unhappyze
+  - mood_unhappy
   - bot_challenge
   - ear_challenge
   - what_do_you_do
   - tell_fav_organ
+  - employement
   - answer_why_do_you_bother_to_ask_ears
   - ask_if_bot_is_ok
   - example_number

@@ -52,7 +52,7 @@ stories:
   - intent: affirm
   - action: utter_confirm_purchase
   - action: utter_ask_job
-  - intent: job
+  - intent: employement
   - action: utter_job_confirmation
   - action: utter_goodbye
 

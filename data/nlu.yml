@@ -183,18 +183,18 @@ nlu:
     - it is a little bit unusual for a bot to have ears
     - bots ususally dont have ears
 
-- intent: job
+- intent: employement
   examples: |
-  - job
-  - part-time
-  - full-time
-  - student
-  - i work at
-  - freelancer
-  - i'm employed at
-  - employee of a firm
-  - jobless
-  - unemployed
+    - job
+    - part-time
+    - full-time
+    - student
+    - i work at
+    - freelancer
+    - i'm employed at
+    - employee of a firm
+    - jobless
+    - unemployed
 
 - intent: ask_if_bot_is_ok
   examples: |

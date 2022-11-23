@@ -6,7 +6,7 @@ from rasa_sdk.executor import CollectingDispatcher
 
 
 
-class ActionGiveSlot(Action):
+class ActionSetSlot(Action):
 
      def name(self) -> Text:
          return "action_set_slot"
@@ -15,7 +15,7 @@ class ActionGiveSlot(Action):
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-         organ = tracker.latest_message("fav_organ")
+         organ = tracker.get_latest_entity_values("organs")
          dispatcher.utter_message(text=f"This is the organ: {organ}")
          
          return [SlotSet("fav_organ", organ)]
