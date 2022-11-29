@@ -1,8 +1,8 @@
 version: "3.1"
 
-entities: 
- - organs:
-    influence_conversation: true
+entities:
+  - organs:
+      influence_conversation: true
 
 slots:
   fav_organ:
@@ -10,7 +10,11 @@ slots:
     mappings:
     - type: from_entity
       entity: organs
-      intent: tell_fav_organ
+forms:
+  organs_form:
+    required_slots:
+      - fav_organ
+
 
 intents:
   - greet
