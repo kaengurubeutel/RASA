@@ -21,9 +21,9 @@ stories:
   steps:
   - action: utter_roast
   - intent: tell_fav_organ
-    entities:
-    - organs: "Heart"
-  - action: action_give_slot
+  - slot_was_set:
+    - fav_organ: "Heart"
+  #- action: action_give_slot
   - action: utter_disagree_with_organ
   - action: utter_not_sell_organs
   - action: utter_goodbye
@@ -32,9 +32,9 @@ stories:
   steps:
   - action: utter_roast
   - intent: tell_fav_organ
-    entities:
-    - organs: "Brain"
-  - action: action_give_slot
+  - slot_was_set:
+    - fav_organ: "Brain"
+  #- action: action_give_slot
   - action: utter_agree_with_organ
   - action: utter_sell_organs
 
@@ -42,7 +42,7 @@ stories:
   steps:
   - action: utter_roast
   - intent: tell_fav_organ
-  - action: action_give_slot
+  #- action: action_give_slot
   - action: utter_organ_default
   - action: utter_sell_organs
   
