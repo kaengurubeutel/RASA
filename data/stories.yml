@@ -5,8 +5,8 @@ stories:
 - story: happy path
   steps:
   - intent: greet
+  - action: action_arduino_test
   - action: utter_greet
   - intent: mood_great
   - action: utter_roast
   - intent: tell_fav_organ
-  
