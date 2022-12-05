@@ -5,7 +5,7 @@ rules:
 
 - rule: Activate organ form
   steps:
-  - intent: tell_fav_organ
+  - intent: ask_if_bot_is_ok #CHANGE!!!!!!!!
   - action: organs_form
   - active_loop: organs_form
 
@@ -29,10 +29,11 @@ rules:
   - intent: bot_challenge
   - action: utter_what_do_you_do?
 
-- rule: smile
-  steps:
-  - intent: mood_unhappy
-  - action: utter_you_are_beautiful
+#already in story unhappy mood
+#- rule: smile
+ # steps:
+  #- intent: mood_unhappy
+  #- action: utter_you_are_beautiful
 
 - rule: Say 'so that i can hear you better, Little Red Riding Hood' everytime someone asks for the ears
   steps:

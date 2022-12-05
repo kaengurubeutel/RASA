@@ -20,10 +20,9 @@ stories:
 - story: cringe at organ path
   steps:
   - action: utter_roast
-  - intent: tell_fav_organ
-  - slot_was_set:
-    - fav_organ: "Heart"
-  #- action: action_give_slot
+  - intent: tell_fav_organ_heart
+  #- slot_was_set:
+    #- fav_organ: "Heart"
   - action: utter_disagree_with_organ
   - action: utter_not_sell_organs
   - action: utter_goodbye
@@ -31,10 +30,9 @@ stories:
 - story: pleased at organ path
   steps:
   - action: utter_roast
-  - intent: tell_fav_organ
-  - slot_was_set:
-    - fav_organ: "Brain"
-  #- action: action_give_slot
+  - intent: tell_fav_organ_brain
+  #- slot_was_set:
+    #- fav_organ: "Brain"
   - action: utter_agree_with_organ
   - action: utter_sell_organs
 
@@ -42,7 +40,6 @@ stories:
   steps:
   - action: utter_roast
   - intent: tell_fav_organ
-  #- action: action_give_slot
   - action: utter_organ_default
   - action: utter_sell_organs
   

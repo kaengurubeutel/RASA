@@ -9,7 +9,6 @@ nlu:
     - Eye
     - Skin
     - Tounge
-    - Brain
     - Salivary glands
     - Parotid glands
     - Submandibular glands
@@ -151,22 +150,14 @@ nlu:
 
 - intent: tell_fav_organ
   examples: |
-    - the [Heart] {"entity":"organs"} I guess
-    - it's the [Heart] {"entity":"organs"}!
-    - I totally love the [Heart] {"entity":"organs"}
-    - the [Heart] {"entity":"organs"}
-    - I'm in love with the [Heart] {"entity":"organs"}
-    - I like the [Heart] {"entity":"organs"}
-    - I totally like the [Heart] {"entity":"organs"}
-    - The [Heart] {"entity":"organs"} is my favourite Organ
-    - the [Brain] {"entity":"organs"} I guess
-    - it's the [Brain] {"entity":"organs"}!
-    - I totally love the [Brain] {"entity":"organs"}
-    - the [Brain] {"entity":"organs"}
-    - I'm in love with the [Brain] {"entity":"organs"}
-    - I like the [Brain] {"entity":"organs"}
-    - I totally like the [Brain] {"entity":"organs"}
-    - The [Brain] {"entity":"organs"} is my favourite Organ
+    - the [Ear] {"entity":"organs"} I guess
+    - it's the [Ear] {"entity":"organs"}!
+    - I totally love the [Ear] {"entity":"organs"}
+    - the [Ear] {"entity":"organs"}
+    - I'm in love with the [Ear] {"entity":"organs"}
+    - I like the [Ear] {"entity":"organs"}
+    - I totally like the [Ear] {"entity":"organs"}
+    - The [Ear] {"entity":"organs"} is my favourite Organ
     - the [Eye] {"entity":"organs"} I guess
     - it's the [Eye] {"entity":"organs"}!
     - I totally love the [Eye] {"entity":"organs"}
@@ -175,6 +166,38 @@ nlu:
     - I like the [Eye] {"entity":"organs"}
     - I totally like the [Eye] {"entity":"organs"}
     - The [Eye] {"entity":"organs"} is my favourite Organ
+    - the [Skin] {"entity":"organs"} I guess
+    - it's the [Skin] {"entity":"organs"}!
+    - I totally love the [Skin] {"entity":"organs"}
+    - the [Skin] {"entity":"organs"}
+    - I'm in love with the [Skin] {"entity":"organs"}
+    - I like the [Skin] {"entity":"organs"}
+    - I totally like the [Skin] {"entity":"organs"}
+    - The [Skin] {"entity":"organs"} is my favourite Organ
+
+- intent: tell_fav_organ_brain
+  examples: |
+    - brain
+    - the brain I guess
+    - it's the brain!
+    - I totally love the brain
+    - the brain
+    - I'm in love with the brain
+    - I like the brain
+    - I totally like the brain
+    - The brain is my favourite Organ
+
+- intent: tell_fav_organ_heart
+  examples: |
+    - heart
+    - the heart I guess
+    - it's the heart!
+    - I totally love the heart
+    - the heart
+    - I'm in love with the heart
+    - I like the heart
+    - I totally like the heart
+    - The heart is my favourite Organ
 
 - intent: answer_why_do_you_bother_to_ask_ears
   examples: |
