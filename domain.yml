@@ -76,7 +76,7 @@ responses:
   - text: "Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!"
 
   utter_you_are_beautiful:
-  - text: "You  are beautiful!"
+  - text: "You are beautiful!"
 
   utter_goodbye:
   - text: "Bye"
