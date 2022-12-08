@@ -16,12 +16,12 @@ class ActionArduinoTest(Action):
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
          for i in range(10):
-             with serial.Serial('COM3', 9800, timeout=1) as ser:
+             with serial.Serial('COM7', 57600, timeout=1) as ser:
                  time.sleep(0.5)
-                 ser.write(b'H')   # send the pyte string 'H'
+                 ser.write('H'.encode('utf-8'))   # send the pyte string 'H'
                  dispatcher.utter_message(text="1")
                  time.sleep(0.5)   # wait 0.5 seconds
-                 ser.write(b'L')   # send the byte string 'L'
+                 ser.write('L'.encode('utf-8'))   # send the byte string 'L'
                  dispatcher.utter_message(text="2!")
          
          return []
