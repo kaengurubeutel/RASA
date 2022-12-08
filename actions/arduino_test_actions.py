@@ -15,15 +15,13 @@ class ActionArduinoTest(Action):
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-         for i in range(10):
-             with serial.Serial('COM3', 57600, timeout=1) as ser:
-                 ser.write(b'TEST')
+         run()
+             with serial.Serial('COM7', 57600, timeout=1) as ser:
+                 ser.write(bytes('TEST', 'utf-8'))
                  time.sleep(0.5)
-                 ser.write(b'H')   # send the pyte string 'H'
-                 dispatcher.utter_message(text="1")
+                 ser.write(bytes('H', 'utf-8'))   # send the pyte string 'H'
                  time.sleep(0.5)   # wait 0.5 seconds
-                 ser.write(b'L')   # send the byte string 'L'
-                 dispatcher.utter_message(text="2!")
+                 ser.write(bytes('L', 'utf-8'))   # send the byte string 'L'
                  ser.write(b'\r\n')
          
          return []
