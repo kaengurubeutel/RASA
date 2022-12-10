@@ -18,15 +18,17 @@ class ActionArduinoTest1(Action):
          serialcomm = serial.Serial('COM3', 57600, timeout=1)
          i = 1
          while True:
-             serialcomm.write('H'.encode())
+             serialcomm.write('ACTION_1'.encode())
              time.sleep(0.5)
              s = serialcomm.readline().decode('ascii')
+
              i = i+1
-             #print(s)????
+             if s:
+                print(s)
              #serialcomm.write(bytes('H', 'utf-8'))   # send the pyte string 'H'
              #serialcomm.write(bytes('L', 'utf-8'))   # send the byte string 'L'
              #serialcomm.write(b'\r\n')
-             if i==20:
+             if i==5:
                 time.sleep(1)
                 dispatcher.utter_message(text=''+s)
                 break
