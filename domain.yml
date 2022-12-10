@@ -53,7 +53,8 @@ responses:
   - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"
 
 actions:
-  - action_arduino_test
+  - action_arduino_test1
+  - action_arduino_test2
 
 session_config:
   session_expiration_time: 60
