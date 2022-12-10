@@ -1,27 +1,19 @@
 digraph  {
 0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
 "-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
-1 [class=active, fontsize=12, label=action_session_start];
-<<<<<<< HEAD
-2 [class=active, fontsize=12, label=action_arduino_test];
-5 [class=active, fontsize=12, label=action_arduino_test];
-8 [class="dashed active", fontsize=12, label=utter_greet];
-9 [class="intent active", fillcolor=lightblue, label="/greet", shape=rect, style=filled];
-10 [class="intent active", fillcolor=lightblue, label="/greet", shape=rect, style=filled];
+1 [class=active, fontsize=12, label=action_arduino_test1];
+2 [class=active, fontsize=12, label=action_arduino_test2];
+3 [class="", fontsize=12, label=utter_greet];
+"-3" [class=ellipsis, label="..."];
+6 [class=active, fontsize=12, label=action_arduino_test2];
+7 [class="dashed active", fontsize=12, label=utter_greet];
+8 [class="intent active", fillcolor=lightblue, label="/greet", shape=rect, style=filled];
 0 -> "-1"  [class="", key=NONE, label=""];
-0 -> 1  [class=active, key=NONE, label=""];
-1 -> 9  [class=active, key=0];
-1 -> 10  [class=active, key=0];
-2 -> 1  [class=active, key=NONE, label=""];
-2 -> 2  [class=active, key=NONE, label=""];
-5 -> 5  [class=active, key=NONE, label=""];
-5 -> 8  [class=active, key=NONE, label=""];
-9 -> 2  [class=active, key=0];
-10 -> 5  [class=active, key=0];
-=======
-2 [class="intent dashed active", label="  ?  ", shape=rect];
-0 -> "-1"  [class="", key=NONE, label=""];
-0 -> 1  [class=active, key=NONE, label=""];
+0 -> 8  [class=active, key=0];
 1 -> 2  [class=active, key=NONE, label=""];
->>>>>>> 94f717b9b5c7025c5adf0fad249da807bc9ceb2b
+2 -> 3  [class="", key=NONE, label=""];
+2 -> 6  [class=active, key=NONE, label=""];
+3 -> "-3"  [class="", key=NONE, label=""];
+6 -> 7  [class=active, key=NONE, label=""];
+8 -> 1  [class=active, key=0];
 }

@@ -1,0 +1,12 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "action_arduino_test1",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWODMSi1JKM/Py40tSi0sMcRoVCwAu9TgM": "action_arduino_test2",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWODMSi1JKM/Py40tSi0sMqWeUEU6jYgHQH1SU": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWODMSi1JKM/Py40tSi0sMqWeUEZlGlZaUpBbFQ5TiMiEWAN/qbaY=": "action_listen",
+    "eJytkEEKgCAQRa/iAdrU0qtEiOQQAznGOLYR755h2yCq3f/weHz+mEun8sawGzsLBtIqt2DIetDqKitGAapsisCVQapVtFoYQMozh2WXkIIRiNL/pxpeqpIIsGnopzF33/gQ3Om3VTQdH3qJhA==": "utter_roast",
+    "eJytkDEKgDAMRa/SA7jo2KuIlKBBCppImroU725FBwcFUbd8eDweqdNSmDQJzg5a9UzWpP1wBCNac4zBB0XKbAwomfGUp1rTC6IuzxwgXfTETjFo+Z+qeqmKqihuRz/F3P1mZO42PzxMEYZwkXLWNCsLAqSy": "action_listen",
+    "eJytkDEKwzAMRa/iA3RpR18lFCEaJRgcqchyFuO71yUZE2rabvrweDw0lHpx5am0Aj4sCHtXtgMYF/JuHzEkI25sTqSNCdymeTcrkdU+B+qYAwsYJbv+T3X7UpXNSGFDf4o5+80iMr792JmigukgpV/zoccoRphwBdEZudb7CwPYwjI=": "action_listen"
+  }
+}
