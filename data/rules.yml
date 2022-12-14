@@ -45,11 +45,6 @@ rules:
   - intent: what_do_you_do
   - action: utter_what_do_you_do?
 
-- rule: Example
-  steps:
-  - intent: example_number
-  - action: utter_fuck_you
-
 - rule: give time rule
   steps:
   - intent: give_time

@@ -53,8 +53,21 @@ stories:
   - action: utter_job_confirmation
   - action: utter_goodbye
 
-- story: sell organs affirm
+- story: sell organs deny
   steps:
   - action: utter_sell_organs
   - intent: deny
+  - action: utter_get_alternative_organ
+
+ - story: accept mechanic replacement of organ
+  steps:
+  - action: utter_get_alternative_organ
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: deny mechanic replacement of organ
+  steps:
+  - action: utter_get_alternative_organ
+  - intent: deny
+  - action: utter_no_undestanding
   - action: utter_goodbye

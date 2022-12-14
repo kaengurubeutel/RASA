@@ -45,6 +45,10 @@ responses:
   utter_greet:
   - text: "Hey! How are you and especially your organs?"
 
+
+  utter_you_are_beautiful:
+  - text: "You are beautiful!"
+
   utter_roast:
   - text: "Great that made my day a little bit better. What is your favourite organ?"
 
@@ -66,6 +70,12 @@ responses:
   utter_not_sell_organs:
   - text: "Well normally i would offer to buy your organs from you, but because our stock of hearts is already full we don't have interest in acquiring your heart. I guess that's bad luck for you!"
 
+  utter_get_alternative_organ:
+  - text: "I understand your concern to selling a part of your machinery, but wolud you like to replace your {fav_organ}, with a mechanic alternative. The future is belonging to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}?"
+
+  utter_no_undestanding:
+  - text: "I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No you had such a good chance to improve your fragile human body. Well you can't always force those things. Hmm. Anyways"
+
   utter_ask_job:
   - text: "For organ liability purposes, we still need your current job. Where do you work and what is your job?"
 
@@ -75,18 +85,12 @@ responses:
   utter_confirm_purchase:
   - text: "Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!"
 
-  utter_you_are_beautiful:
-  - text: "You are beautiful!"
-
   utter_goodbye:
   - text: "Bye"
   - text: "Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Have God Day, Bye!"
 
   utter_iamabot:
   - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"
-
-  utter_fuck_you:
-  - text: "Fuck you man"
 
 actions:
   - validate_organs_form
