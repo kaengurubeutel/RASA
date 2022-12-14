@@ -36,7 +36,16 @@ stories:
   - action: utter_agree_with_organ
   - action: utter_sell_organs
 
-- story: happy path
+- story: pleased at organ path
+  steps:
+  - action: utter_roast
+  - intent: tell_fav_organ_skin
+  #- slot_was_set:
+    #- fav_organ: "Skin"
+  - action: utter_not_sell_organs
+  - action: utter_goodbye
+
+- story: default organ path
   steps:
   - action: utter_roast
   - intent: tell_fav_organ

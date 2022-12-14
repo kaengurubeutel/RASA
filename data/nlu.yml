@@ -199,6 +199,18 @@ nlu:
     - I totally like the heart
     - The heart is my favourite Organ
 
+- intent: tell_fav_organ_skin
+  examples: |
+    - skin
+    - the skin I guess
+    - it's the skin!
+    - I totally love the skin
+    - the skin
+    - I'm in love with the skin
+    - I like the skin
+    - I totally like the skin
+    - The skin is my favourite Organ
+
 - intent: answer_why_do_you_bother_to_ask_ears
   examples: |
     - it's a little uncommon for a bot to have ears

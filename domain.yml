@@ -29,6 +29,7 @@ intents:
   - tell_fav_organ
   - tell_fav_organ_heart
   - tell_fav_organ_brain
+  - tell_fav_organ_skin
   - employement
   - answer_why_do_you_bother_to_ask_ears
   - ask_if_bot_is_ok
