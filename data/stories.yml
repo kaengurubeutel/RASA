@@ -21,8 +21,6 @@ stories:
   steps:
   - action: utter_roast
   - intent: tell_fav_organ_heart
-  #- slot_was_set:
-    #- fav_organ: "Heart"
   - action: utter_disagree_with_organ
   - action: utter_not_sell_organs
   - action: utter_goodbye
@@ -31,17 +29,13 @@ stories:
   steps:
   - action: utter_roast
   - intent: tell_fav_organ_brain
-  #- slot_was_set:
-    #- fav_organ: "Brain"
   - action: utter_agree_with_organ
   - action: utter_sell_organs
 
-- story: pleased at organ path
+- story: unpleased at organ path
   steps:
   - action: utter_roast
   - intent: tell_fav_organ_skin
-  #- slot_was_set:
-    #- fav_organ: "Skin"
   - action: utter_not_sell_organs
   - action: utter_goodbye
 
@@ -68,7 +62,7 @@ stories:
   - intent: deny
   - action: utter_get_alternative_organ
 
- - story: accept mechanic replacement of organ
+- story: accept mechanic replacement of organ
   steps:
   - action: utter_get_alternative_organ
   - intent: affirm

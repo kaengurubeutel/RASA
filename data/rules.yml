@@ -5,7 +5,7 @@ rules:
 
 - rule: Activate organ form
   steps:
-  - intent: ask_if_bot_is_ok #CHANGE!!!!!!!!
+  - intent: ask_if_bot_is_ok 
   - action: organs_form
   - active_loop: organs_form
 
