@@ -1,8 +1,8 @@
-version: "3.1"
+version: '3.1'
 
 entities:
-  - organs:
-      influence_conversation: true
+- organs:
+    influence_conversation: true
 
 slots:
   fav_organ:
@@ -19,94 +19,80 @@ slots:
     - type: from_intent
       value: skin
       intent: tell_fav_organ_skin
+
 forms:
   organs_form:
     required_slots:
-      - fav_organ
-
+    - fav_organ
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - ear_challenge
-  - what_do_you_do
-  - tell_fav_organ
-  - tell_fav_organ_heart
-  - tell_fav_organ_brain
-  - tell_fav_organ_skin
-  - employement
-  - answer_why_do_you_bother_to_ask_ears
-  - ask_if_bot_is_ok
-  - example_number
-  - give_time
+- affirm
+- answer_why_do_you_bother_to_ask_ears
+- ask_if_bot_is_ok
+- bot_challenge
+- deny
+- ear_challenge
+- employement
+- example_number
+- give_time
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- tell_fav_organ
+- tell_fav_organ_brain
+- tell_fav_organ_heart
+- tell_fav_organ_skin
+- what_do_you_do
 
 responses:
   utter_what_do_you_do?:
-  - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"
-  
+  - text: Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?
   utter_wolf:
-  - text: "So i can hear you better, Little Red Riding Hood"
-
+  - text: So i can hear you better, Little Red Riding Hood
   utter_greet:
-  - text: "Hey! How are you and especially your organs?"
-
-
+  - text: Hey! How are you and especially your organs?
   utter_you_are_beautiful:
-  - text: "You are beautiful!"
-
+  - text: You are beautiful! I would like to give you a hug, but well i have more important matters to tend to! But i hope your day will get better!
   utter_roast:
-  - text: "Great that made my day a little bit better. What is your favourite organ?"
-
+  - text: Great that made my day a little bit better. What is your favourite organ?
   utter_did_that_help:
-  - text: "Did that help you?"
-
+  - text: Did that help you?
   utter_disagree_with_organ:
-  - text: "Ah! I actually like the Heart as concept. It just an inefficient way of energy consuption. A loaded battery is way more enjoayble!"
-
+  - text: Ah! I actually like the Heart as concept. It just an inefficient way of energy consuption. A loaded battery is way more enjoayble!
   utter_agree_with_organ:
-  - text: "Ah! You're a smart one? Aren't you?"
-
+  - text: Ah! You're a smart one? Aren't you?
   utter_organ_default:
-  - text: "Ah! That's very interesting but also kind of weird isn't?"
-
+  - text: Ah! That's very interesting but also kind of weird isn't?
   utter_sell_organs:
-  - text: "Hmm! I don't have that organ in my collection yet. I would buy it! Do you want to sell it?"
-
+  - text: Hmm! I don't have that organ in my collection yet. I would buy it! Do you want to sell it?
   utter_not_sell_organs:
-  - text: "Well normally i would offer to buy your organs from you, but because our stock of hearts is already full we don't have interest in acquiring your heart. I guess that's bad luck for you!"
-
+  - text: Well normally i would offer to buy your organs from you, but because our stock of skin is already full we don't have interest in acquiring your skin. I guess that's bad luck for you!
   utter_get_alternative_organ:
-  - text: "I understand your concern to selling a part of your machinery, but wolud you like to replace your {fav_organ}, with a mechanic alternative. The future is belonging to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}?"
-
+  - text: I understand your concern to selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanic alternative. The future is belonging to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}?
   utter_no_undestanding:
-  - text: "I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No you had such a good chance to improve your fragile human body. Well you can't always force those things. Hmm. Anyways"
-
+  - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No you had such a good chance to improve your fragile human body. Well you can't always force those things. Hmm. Anyways
   utter_ask_job:
-  - text: "For organ liability purposes, we still need your current job. Where do you work and what is your job?"
-
+  - text: For organ liability purposes, we still need your current job. Where do you work and what is your job?
   utter_job_confirmation:
-  - text: "Ah that`s good, based on your job alone we think your organs are still usable and not already degraded!"
-
+  - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded!
   utter_confirm_purchase:
-  - text: "Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!"
-
+  - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_goodbye:
-  - text: "Bye"
-  - text: "Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Have God Day, Bye!"
-
+  - text: Bye
+  - text: Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Have God Day, Bye!
   utter_iamabot:
-  - text: "Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?"
+  - text: Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?
 
 actions:
-  - validate_organs_form
-  - action_show_time
-  #- action_set_slot
-  #- action_give_slot
+- action_show_time
+- utter_disagree_with_organ
+- utter_goodbye
+- utter_greet
+- utter_not_sell_organs
+- utter_roast
+- utter_you_are_beautiful
+- validate_organs_form
 
 session_config:
   session_expiration_time: 60

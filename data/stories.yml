@@ -22,8 +22,7 @@ stories:
   - action: utter_roast
   - intent: tell_fav_organ_heart
   - action: utter_disagree_with_organ
-  - action: utter_not_sell_organs
-  - action: utter_goodbye
+  - action: utter_sell_organs
 
 - story: pleased at organ path
   steps:
