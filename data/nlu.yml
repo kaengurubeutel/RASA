@@ -150,6 +150,8 @@ nlu:
 
 - intent: tell_fav_organ
   examples: |
+    - [Ear] {"entity":"organs"}
+    - the [Ear] {"entity":"organs"}
     - the [Ear] {"entity":"organs"} I guess
     - it's the [Ear] {"entity":"organs"}!
     - I totally love the [Ear] {"entity":"organs"}
@@ -158,6 +160,8 @@ nlu:
     - I like the [Ear] {"entity":"organs"}
     - I totally like the [Ear] {"entity":"organs"}
     - The [Ear] {"entity":"organs"} is my favourite Organ
+    - [Eye] {"entity":"organs"}
+    - the [Eye] {"entity":"organs"}
     - the [Eye] {"entity":"organs"} I guess
     - it's the [Eye] {"entity":"organs"}!
     - I totally love the [Eye] {"entity":"organs"}

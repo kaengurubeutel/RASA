@@ -3,12 +3,6 @@ version: "3.1"
 
 rules:
 
-- rule: Activate organ form
-  steps:
-  - intent: ask_if_bot_is_ok #change
-  - action: organs_form
-  - active_loop: organs_form
-
 - rule: Submit organ form
   condition:
   - active_loop: organs_form

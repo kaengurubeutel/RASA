@@ -42,6 +42,8 @@ stories:
   steps:
   - action: utter_roast
   - intent: tell_fav_organ
+  - action: organs_form
+  - active_loop: organs_form
   - action: utter_organ_default
   - action: utter_sell_organs
   
