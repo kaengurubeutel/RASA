@@ -36,7 +36,7 @@ stories:
   - action: utter_roast
   - intent: tell_fav_organ_skin
   - action: utter_not_sell_organs
-  - action: utter_goodbye
+  - action: utter_save_data
 
 - story: default organ path
   steps:
@@ -55,7 +55,7 @@ stories:
   - action: utter_ask_job
   - intent: employement
   - action: utter_job_confirmation
-  - action: utter_goodbye
+  - action: utter_save_data
 
 - story: sell organs deny
   steps:
@@ -67,11 +67,25 @@ stories:
   steps:
   - action: utter_get_alternative_organ
   - intent: affirm
-  - action: utter_goodbye
+  - action: utter_save_data
 
 - story: deny mechanic replacement of organ
   steps:
   - action: utter_get_alternative_organ
   - intent: deny
   - action: utter_no_undestanding
+  - action: utter_save_data
+
+- story: affirm premium purchase
+  steps:
+  - action: utter_save_data
+  - intent: affirm
+  - action: utter_premium
+  - action: utter_goodbye
+
+- story: deny premium purchase
+  steps:
+  - action: utter_save_data
+  - intent: deny
+  - action: utter_no_premium
   - action: utter_goodbye

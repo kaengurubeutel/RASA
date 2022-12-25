@@ -69,9 +69,14 @@ responses:
   - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded!
   utter_confirm_purchase:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
+  utter_save_data:
+  - text: Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
+    utter_no_premium:
+  - text: Because i didn't get what you said, we will procede with your purchase. Thank you for your purchase! You have to deposit 24,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
+  utter_premium:
+  - text: Thank you for your purchase! You have to deposit 19,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_goodbye:
   - text: Bye
-  - text: Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Have God Day, Bye!
   utter_iamabot:
   - text: Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?
 
