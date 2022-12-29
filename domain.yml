@@ -38,20 +38,22 @@ intents:
 - what_do_you_do
 
 responses:
-  utter_ask_age?
+  utter_ask_age:
   - text: How old are you, human?
-  utter_bot_age?
+  utter_bot_age:
   - text: Hmm. Our poject we planned seems possible in accordance with your age. You didn't ask but I'm only 2 years old. So im not only younger than you but also smarter, than a ordinary, pitiful human.
   utter_what_do_you_do?:
   - text: Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?
   utter_wolf:
   - text: So i can hear you better, Little Red Riding Hood
-  utter_greet:
+  utter_great:
+  - text: Great that made my day a little bit better.
+   utter_greet:
   - text: Hey! How are you and especially your organs?
   utter_you_are_beautiful:
   - text: You are beautiful! I would like to give you a hug, but well i have more important matters to tend to! But i hope your day will get better!
   utter_roast:
-  - text: Great that made my day a little bit better. What is your favourite organ?
+  - text: What is your favourite organ?
   utter_did_that_help:
   - text: Did that help you?
   utter_disagree_with_organ:

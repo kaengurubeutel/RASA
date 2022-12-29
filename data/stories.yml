@@ -7,7 +7,7 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
-  - action: utter_roast
+  - action: utter_great
 
 - story: unhappy mood
   steps:
@@ -15,6 +15,14 @@ stories:
   - action: utter_greet
   - intent: mood_unhappy
   - action: utter_you_are_beautiful
+  - action: utter_great
+
+- story: age
+  steps:
+  - action: utter_great
+  - action: utter_ask_age
+  - intent: tell_age
+  - action: utter_bot_age
   - action: utter_roast
 
 - story: cringe at organ path
