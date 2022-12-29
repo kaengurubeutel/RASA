@@ -71,7 +71,7 @@ responses:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_save_data:
   - text: Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
-    utter_no_premium:
+  utter_no_premium:
   - text: Because i didn't get what you said, we will procede with your purchase. Thank you for your purchase! You have to deposit 24,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_premium:
   - text: Thank you for your purchase! You have to deposit 19,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
