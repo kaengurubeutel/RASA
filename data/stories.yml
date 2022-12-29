@@ -53,8 +53,29 @@ stories:
   - action: organs_form
   - active_loop: organs_form
   - action: utter_organ_default
+#problem with slot so default alternative part1
+- story: default sell organs affirm
+  steps: 
+  - action: utter_organ_default
   - action: utter_sell_organs
-  
+  - intent: affirm
+  - action: utter_confirm_purchase_default #THIS IS DIFFERENT
+  - action: utter_ask_job
+  - intent: employement
+  - action: utter_job_confirmation
+  - action: utter_save_data
+#problem with slot so default alternative part2
+- story: default sell organs deny
+  steps: 
+  - action: utter_organ_default
+  - action: utter_sell_organs
+  - intent: affirm
+  - action: utter_confirm_purchase_default #THIS IS DIFFERENT
+  - action: utter_ask_job
+  - intent: employement
+  - action: utter_job_confirmation
+  - action: utter_save_data
+
 - story: sell organs affirm
   steps: 
   - action: utter_sell_organs

@@ -76,6 +76,8 @@ responses:
   - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded!
   utter_confirm_purchase:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
+  utter_confirm_purchase_default:
+  - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for your organ. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_save_data:
   - text: Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
   utter_no_premium:
