@@ -93,6 +93,8 @@ responses:
   - text: Because i didn't get what you said, we will procede with your purchase. Thank you for your purchase! You have to deposit 24,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_premium:
   - text: Thank you for your purchase! You have to deposit 19,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
+  utter_problems_ocurred: #FULL LINK (WHAT'S FUNNY THERE?)
+  - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to stat a new conversation. The link is www dot link dot com. Thank you very much for listening.
   utter_goodbye:
   - text: Bye
   utter_iamabot:
