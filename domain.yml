@@ -62,7 +62,7 @@ responses:
   utter_you_are_beautiful:
   - text: You are beautiful! I would like to give you a hug, but well i have more important matters to tend to! But i hope your day will get better!
   utter_roast:
-  - text: What is your favourite organ?
+  - text: Maybe we should get down to business now. What is your favourite organ?
   utter_did_that_help:
   - text: Did that help you?
   utter_disagree_with_organ:
@@ -81,8 +81,8 @@ responses:
   - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No you had such a good chance to improve your fragile human body. Well you can't always force those things. Hmm. Anyways
   utter_ask_job:
   - text: For organ liability purposes, we still need your current job. Where do you work and what is your job?
-  utter_job_confirmation:
-  - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded!
+  utter_job_confirmation: # 2 OPTIONS DEPENDING ON AGE?
+  - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded! According to your age the condition of your body seems viable!
   utter_confirm_purchase:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_confirm_purchase_default:
@@ -97,6 +97,7 @@ responses:
   - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to stat a new conversation. The link is www dot link dot com. Thank you very much for listening.
   utter_goodbye:
   - text: Bye
+  - text: I look forward to seeing you again. Goodbye!
   utter_iamabot:
   - text: Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?
 
