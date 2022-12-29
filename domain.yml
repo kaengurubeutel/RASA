@@ -10,6 +10,15 @@ slots:
     mappings:
     - type: from_entity
       entity: organs
+    - type: from_intent
+      value: heart
+      intent: tell_fav_organ_heart
+    - type: from_intent
+      value: brain
+      intent: tell_fav_organ_brain
+    - type: from_intent
+      value: skin
+      intent: tell_fav_organ_skin
 
 forms:
   organs_form:
