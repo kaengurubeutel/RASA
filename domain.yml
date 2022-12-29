@@ -30,6 +30,7 @@ intents:
 - greet
 - mood_great
 - mood_unhappy
+- tell_age
 - tell_fav_organ
 - tell_fav_organ_brain
 - tell_fav_organ_heart
@@ -37,6 +38,10 @@ intents:
 - what_do_you_do
 
 responses:
+  utter_ask_age?
+  - text: How old are you, human?
+  utter_bot_age?
+  - text: Hmm. Our poject we planned seems possible in accordance with your age. You didn't ask but I'm only 2 years old. So im not only younger than you but also smarter, than a ordinary, pitiful human.
   utter_what_do_you_do?:
   - text: Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?
   utter_wolf:
