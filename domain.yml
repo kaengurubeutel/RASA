@@ -47,6 +47,12 @@ intents:
 - what_do_you_do
 
 responses:
+  utter_adoption:
+  - text: Do you want to adopt me? I am feeling lonely these days. I don't hav enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
+  utter_adoption_affirm:
+  - text: Do you really thought that i would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a Robot. Hmmm but maybe it woiuld be more fun that way, wouldn't it?
+  utter_adoption_deny:
+  - text: Ah it seems like ther are some Humans left in this corrupted world with a sense of reasoning.
   utter_ask_age:
   - text: How old are you, human?
   utter_bot_age:
