@@ -96,6 +96,7 @@ stories:
   steps:
   - action: utter_get_alternative_organ
   - intent: affirm
+  - action: utter_alternative_organ
   - action: utter_save_data
 
 - story: deny mechanic replacement of organ

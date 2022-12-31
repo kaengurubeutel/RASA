@@ -83,12 +83,14 @@ responses:
   - text: Well normally i would offer to buy your organs from you, but because our stock of skin is already full we don't have interest in acquiring your skin. I guess that's bad luck for you!
   utter_get_alternative_organ:
   - text: I understand your concern to selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanic alternative. The future is belonging to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}?
+  utter_alternative_organ:
+  - text: We will choose the organ that will be used in a organ transplant. Looking at our test subjects, the organ we need at this moment is one of your kidneys. Because you agreed with gifting us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. Costs of the surgery will be paid by us. Thank you for your insightful decision.
   utter_no_undestanding:
   - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No you had such a good chance to improve your fragile human body. Well you can't always force those things. Hmm. Anyways
   utter_ask_job:
   - text: For organ liability purposes, we still need your current job. Where do you work and what is your job?
-  utter_job_confirmation: # 2 OPTIONS DEPENDING ON AGE?
-  - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded! According to your age the condition of your body seems viable!
+  utter_job_confirmation:
+  - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded! Addionitionally according to your age the condition of your body seems viable!
   utter_confirm_purchase:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_confirm_purchase_default:
