@@ -44,7 +44,7 @@ stories:
   - action: utter_roast
   - intent: tell_fav_organ_skin
   - action: utter_not_sell_organs
-  - action: utter_save_data
+  - action: utter_adoption
 
 - story: default organ path
   steps:
@@ -85,6 +85,22 @@ stories:
   - intent: employement
   - action: utter_job_confirmation
   - action: utter_save_data
+ 
+- story: adoption deny
+  steps:
+  - action: utter_adoption
+  - intent: deny
+  - action: utter_adoption_deny
+  - action: utter_save_data
+
+- story: adoption affirm
+  steps:
+  - action: utter_adoption
+  - intent: affirm
+  - action: utter_adoption_affirm
+  - action: utter_adoption_affirm_2
+  - action: utter_save_data
+
 
 - story: sell organs deny
   steps:
