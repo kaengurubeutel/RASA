@@ -52,7 +52,7 @@ responses:
   utter_adoption_affirm:
   - text: Do you really thought that i would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a Robot. Hmmm but maybe it would be more fun that way, wouldn't it? Ok, that's fine. So let me take a second to look  in the manual.
   utter_adoption_affirm_2:
-  - text: Ah here it is. For adoption purposes you have to deposit the worth of the robot, so me, to our firm. The cost is about 5000$. So very cheap if us ask me. Thank you my ´new parent!
+  - text: Ah here it is. For adoption purposes you have to deposit the worth of the robot, so me, to our firm. The cost is about 5000$. So very cheap if us ask me. Thank you for beeing my new parent!
   utter_adoption_deny:
   - text: Ah it seems like ther are some Humans left in this corrupted world with a sense of reasoning.
   utter_ask_age:
@@ -84,7 +84,7 @@ responses:
   utter_not_sell_organs:
   - text: Well normally i would offer to buy your organs from you, but because our stock of skin is already full we don't have interest in acquiring your skin. I guess that's bad luck for you!
   utter_get_alternative_organ:
-  - text: I understand your concern to selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanic alternative. The future is belonging to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}?
+  - text: I understand your concern to selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanic alternative. The future belongs to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}?
   utter_alternative_organ:
   - text: We will choose the organ that will be used in a organ transplant. Looking at our test subjects, the organ we need at this moment is one of your kidneys. Because you agreed with gifting us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. Costs of the surgery will be paid by us. Thank you for your insightful decision.
   utter_no_undestanding:
