@@ -69,7 +69,7 @@ stories:
   - action: utter_ask_job
   - intent: employement
   - action: utter_job_confirmation
-  - action: utter_save_data
+  - action: utter_adoption
 #problem with slot so default alternative part2
 - story: default sell organs deny
   steps: 
@@ -80,7 +80,7 @@ stories:
   - action: utter_ask_job
   - intent: employement
   - action: utter_job_confirmation
-  - action: utter_save_data
+  - action: utter_adoption
 
 - story: sell organs affirm
   steps: 
@@ -90,7 +90,7 @@ stories:
   - action: utter_ask_job
   - intent: employement
   - action: utter_job_confirmation
-  - action: utter_save_data
+  - action: utter_adoption
  
  - story: sell eyes as ears replacement
   steps: 
@@ -100,7 +100,7 @@ stories:
   - action: utter_ask_job
   - intent: employement
   - action: utter_job_confirmation
-  - action: utter_save_data
+  - action: utter_adoption
 
 - story: sell eyes as ears replacement
   steps: 

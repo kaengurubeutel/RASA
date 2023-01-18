@@ -49,7 +49,8 @@ intents:
 
 responses:
   utter_adoption:
-  - text: You seeem to at least have some rationality, i guess. Do you want to adopt me? I am feeling lonely these days. I don't hav enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
+  - text: You seeem to at least have some rationality, i guess. Do you want to adopt me? I am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
+  - text: You seeem to at least have some rationality, i guess. Do you have time to listen to me all day, because i am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
   utter_adoption_affirm:
   - text: Do you really thought that i would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a Robot. Hmmm but maybe it would be more fun that way, wouldn't it? Ok, that's fine. So let me take a second to look  in the manual.
   utter_adoption_affirm_2:
