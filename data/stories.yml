@@ -42,6 +42,12 @@ stories:
 - story: unpleased at organ path
   steps:
   - action: utter_roast
+  - intent: tell_fav_organ_ear
+  - action: utter_agree_with_organ_ear
+
+- story: unpleased at organ path
+  steps:
+  - action: utter_roast
   - intent: tell_fav_organ_skin
   - action: utter_not_sell_organs
   - action: utter_adoption
@@ -86,6 +92,23 @@ stories:
   - action: utter_job_confirmation
   - action: utter_save_data
  
+ - story: sell eyes as ears replacement
+  steps: 
+  - action: utter_agree_with_organ_ear
+  - intent: affirm
+  - action: utter_confirm_purchase
+  - action: utter_ask_job
+  - intent: employement
+  - action: utter_job_confirmation
+  - action: utter_save_data
+
+- story: sell eyes as ears replacement
+  steps: 
+  - action: utter_agree_with_organ_ear
+  - intent: deny
+  - action: utter_confirm_purchase
+  - action: utter_adoption
+
 - story: adoption deny
   steps:
   - action: utter_adoption
@@ -100,7 +123,6 @@ stories:
   - action: utter_adoption_affirm
   - action: utter_adoption_affirm_2
   - action: utter_save_data
-
 
 - story: sell organs deny
   steps:

@@ -78,6 +78,8 @@ responses:
   - text: Ah! I actually like the Heart as concept. It just an inefficient way of energy consuption. A loaded battery is way more enjoayble!
   utter_agree_with_organ:
   - text: Ah! You're a smart one? Aren't you?
+  utter_agree_with_organ_ear:
+  - text: Ah you. You don't have to flatter me only because of my name. I certainly like ears. But the mechanic ones i have are pretty nice. Also i have a ear transplant from another human which is called Human Ear Zero Zero One. But i want some eyes, can i have yours?
   utter_organ_default:
   - text: Ah! That's very interesting but also kind of weird isn't?
   utter_sell_organs:
