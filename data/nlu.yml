@@ -4,8 +4,6 @@ nlu:
 
 - lookup: organs
   examples: |
-    - Ears
-    - Ear
     - Nose
     - Eyes
     - Eye
@@ -162,6 +160,9 @@ nlu:
     - good, i guess
     - good
     - I'm fine
+    - I'm doing fine
+    - fine
+
     
 
 
@@ -187,6 +188,8 @@ nlu:
     - not especially good
     - not that good at the moment
     - terrrified
+    - i don't really know
+    - it's so so 
 
 - intent: tell_age
   examples: |
@@ -288,6 +291,27 @@ nlu:
     - I like the heart
     - I totally like the heart
     - The heart is my favourite Organ
+
+- intent: tell_fav_organ_ear
+  examples: |
+    - ear
+    - the ear I guess
+    - it's the ear!
+    - I totally love the ear
+    - the ear
+    - I'm in love with the ear
+    - I like the ear
+    - I totally like the ear
+    - The ear is my favourite Organ
+    - ears
+    - the ears I guess
+    - it's the ears!
+    - I totally love the ears
+    - the ears
+    - I'm in love with the ears
+    - I like the ears
+    - I totally like the ears
+    - The ears is my favourite Organ
 
 - intent: tell_fav_organ_skin
   examples: |

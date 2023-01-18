@@ -43,6 +43,7 @@ intents:
 - tell_fav_organ
 - tell_fav_organ_brain
 - tell_fav_organ_heart
+- tell_fav_organ_ear
 - tell_fav_organ_skin
 - what_do_you_do
 
