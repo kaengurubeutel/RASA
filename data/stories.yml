@@ -127,7 +127,6 @@ stories:
   - action: utter_save_data
   - intent: affirm
   - action: utter_premium
-  - action: utter_problems_ocurred
   - action: utter_goodbye
 
 - story: deny premium purchase
