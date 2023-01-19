@@ -338,6 +338,11 @@ nlu:
     - part-time
     - full-time
     - student
+    - professor
+    - teacher
+    - university worker
+    - university of applied sciences teacher
+    - i am a student
     - i work at
     - freelancer
     - i'm employed at

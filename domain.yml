@@ -49,6 +49,7 @@ intents:
 
 responses:
   utter_adoption:
+  #???
   - text: You seeem to at least have some rationality, i guess. Do you want to adopt me? I am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
   - text: You seeem to at least have some rationality, i guess. Do you have time to listen to me all day, because i am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
   utter_adoption_affirm:
@@ -88,9 +89,11 @@ responses:
   utter_not_sell_organs:
   - text: Well normally i would offer to buy your organs from you, but because our stock of skin is already full we don't have interest in acquiring your skin. I guess that's bad luck for you!
   utter_get_alternative_organ:
-  - text: I understand your concern to selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanic alternative. The future belongs to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}?
+  - text: I understand your concern to selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanic alternative. The future belongs to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}? #LUNGS EYES NOSE
   utter_alternative_organ:
-  - text: We will choose the organ that will be used in a organ transplant. Looking at our test subjects, the organ we need at this moment is one of your kidneys. Because you agreed with gifting us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. Costs of the surgery will be paid by us. Thank you for your insightful decision.
+  #???
+  - text: We will choose the organ that will be used in a organ transplant. Looking at our test subjects, the organ we need at this moment is one of your eyes. Because you agreed with gifting us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. Costs of the surgery will be paid by us. Thank you for your insightful decision.
+  - text: We will choose the organ that will be used in a organ transplant. I already have some spare ears, i want to have one of your eyes. Because you agreed with gifting us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. Costs of the surgery will be paid by us. Thank you for your insightful decision.
   utter_no_undestanding:
   - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No you had such a good chance to improve your fragile human body. Well you can't always force those things. Hmm. Anyways
   utter_ask_job:
@@ -101,6 +104,8 @@ responses:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_confirm_purchase_default:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for your organ. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
+  utter_buy_data:
+  - text: Your personal data from this conversation will be computed and used or sold to the highest bidder. The personal information that will be extracted will be your age, gender, heritage, mood and even the health of your body. Do you want to buy this data for yourself?
   utter_save_data:
   - text: Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
   utter_no_premium:
@@ -108,7 +113,7 @@ responses:
   utter_premium:
   - text: Thank you for your purchase! You have to deposit 19,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_problems_ocurred: #FULL LINK (WHAT'S FUNNY THERE?)
-  - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to stat a new conversation. The link is www dot link dot com. Thank you very much for listening.
+  - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to stat a new conversation. The link is www dot link dot com slash one nine three two slash customer service. Thank you very much for listening.
   utter_goodbye:
   - text: Bye
   - text: I look forward to seeing you again. Goodbye!
