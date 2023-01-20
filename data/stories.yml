@@ -8,6 +8,7 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_great
+  - action: utter_ask_age
 
 - story: unhappy mood
   steps:
@@ -16,10 +17,10 @@ stories:
   - intent: mood_unhappy
   - action: utter_you_are_beautiful
   - action: utter_great
+  - action: utter_ask_age
 
 - story: age
   steps:
-  - action: utter_great
   - action: utter_ask_age
   - intent: tell_age
   - action: utter_bot_age
