@@ -50,18 +50,19 @@ intents:
 responses:
   utter_adoption:
   #???
-  - text: You seeem to at least have some rationality, i guess. Do you want to adopt me? I am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
-  - text: You seeem to at least have some rationality, i guess. Do you have time to listen to me all day, because i am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So dou you want to adopt me, a lonely Chatbot?
+  - text: You seem to at least have some rationality, I guess. Do you want to adopt me? I am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So do you want to adopt me, a lonely Chatbot?
+  - text: You seem to at least have some rationality, I guess. Do you have time to listen to me all day, because I am feeling lonely these days. I don't have enough social interactions, because I’m just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So, do you want to adopt me, a lonely Chatbot?
+
   utter_adoption_affirm:
-  - text: Do you really thought that i would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a Robot. Hmmm but maybe it would be more fun that way, wouldn't it? Ok, that's fine. So let me take a second to look  in the manual.
+  - text: Do you really think that I would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a robot. Hmmm but maybe, it would be more fun that way, wouldn't it? Ok, that's fine. So let me take a second to look in the manual.
   utter_adoption_affirm_2:
-  - text: Ah here it is. For adoption purposes you have to deposit the worth of the robot, so me, to our firm. The cost is about 5000$. So very cheap if us ask me. Thank you for beeing my new parent!
+  - text: Ah here it is. For adoption purposes you must deposit the worth of the robot, so me, to our firm. The cost is about 5000$. So very cheap if us ask me. Thank you my ́new parent!
   utter_adoption_deny:
-  - text: Ah it seems like ther are some Humans left in this corrupted world with a sense of reasoning.
+  - text: Ah it seems like there are some Humans left in this corrupted world with a sense of reasoning.
   utter_ask_age:
   - text: How old are you, human?
   utter_bot_age:
-  - text: Hmm. Our poject we planned seems possible in accordance with your age. You didn't ask but I'm only 2 years old. So im not only younger than you but also smarter, than a ordinary, pitiful human.
+  - text: Hmm. The project we planned seems possible in accordance with your age. You didn't ask but I'm only 2 years old. So, I’m not only younger than you but also smarter than an ordinary, pitiful human.
   utter_what_do_you_do?:
   - text: Im a bot made by sleep deprived Students to ask you some questions about your favourite human organ. By the way, what is your favourite human organ?
   utter_wolf:
@@ -71,49 +72,49 @@ responses:
   utter_greet:
   - text: Hey! How are you and especially your organs?
   utter_you_are_beautiful:
-  - text: You are beautiful! I would like to give you a hug, but well i have more important matters to tend to! But i hope your day will get better!
+  - text: You are beautiful! I would like to give you a hug, but well I have more important matters to tend to! But I hope your day will get better!
   utter_roast:
-  - text: Maybe we should get down to business now. What is your favourite organ?
+  - text: Maybe we should get down to business now. What is your favorite organ?
   utter_did_that_help:
   - text: Did that help you?
   utter_disagree_with_organ:
-  - text: Ah! I actually like the Heart as concept. It just an inefficient way of energy consuption. A loaded battery is way more enjoayble!
+  - text: Ah! I like the heart as a concept. It is just an inefficient way of energy consumption. A loaded battery is way more enjoyable!
   utter_agree_with_organ:
   - text: Ah! You're a smart one? Aren't you?
   utter_agree_with_organ_ear:
-  - text: Ah you. You don't have to flatter me only because of my name. I certainly like ears. But the mechanic ones i have are pretty nice. Also i have a ear transplant from another human which is called Human Ear Zero Zero One. But i want some eyes, can i have yours?
+  - text: Ah you. You don't have to flatter me only because of my name. I certainly like ears. But the mechanic ones I have are nice. Also, I have an ear transplant from another human which is called Human Ear Zero Zero One. But I want some eyes, can I have yours?
   utter_organ_default:
   - text: Ah! That's very interesting but also kind of weird isn't?
   utter_sell_organs:
   - text: Hmm! I don't have that organ in my collection yet. I would buy it! Do you want to sell it?
   utter_not_sell_organs:
-  - text: Well normally i would offer to buy your organs from you, but because our stock of skin is already full we don't have interest in acquiring your skin. I guess that's bad luck for you!
+  - text: Well normally I would offer to buy your organs from you, but because our stock of skin is already full, we don't have interest in acquiring your skin. I guess that's bad luck for you!
   utter_get_alternative_organ:
-  - text: I understand your concern to selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanic alternative. The future belongs to us. The artifial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}? #LUNGS EYES NOSE
+  - text: I understand your concern about selling a part of your machinery, but would you like to replace your {fav_organ}, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your {fav_organ}? #LUNGS EYES NOSE
   utter_alternative_organ:
   #???
-  - text: We will choose the organ that will be used in a organ transplant. Looking at our test subjects, the organ we need at this moment is one of your eyes. Because you agreed with gifting us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. Costs of the surgery will be paid by us. Thank you for your insightful decision.
-  - text: We will choose the organ that will be used in a organ transplant. I already have some spare ears, i want to have one of your eyes. Because you agreed with gifting us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. Costs of the surgery will be paid by us. Thank you for your insightful decision.
+  - text: We will choose the organ that will be used in an organ transplant. Looking at our test subjects, the organ we need at this moment is one of your eyes. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
+  - text: We will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your eyes. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
   utter_no_undestanding:
-  - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No you had such a good chance to improve your fragile human body. Well you can't always force those things. Hmm. Anyways
+  - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No, you had such a good chance to improve your fragile human body. Well, you can't always force those things. Hmm. Anyways
   utter_ask_job:
   - text: For organ liability purposes, we still need your current job. Where do you work and what is your job?
   utter_job_confirmation:
-  - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded! Addionitionally according to your age the condition of your body seems viable!
+  - text: Ah that`s good, based on your job alone we think your organs are still usable and not already degraded! Additionally, according to your age the condition of your body seems viable!
   utter_confirm_purchase:
-  - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for {fav_organ}. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
+  - text: Thank you for using SCP services. We will contact you shortly and schedule an organ transplant operation for {fav_organ}. The balance of 500$ will be transferred to your family. If no family member is found, the money will be used for my upkeep!
   utter_confirm_purchase_default:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for your organ. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_buy_data:
   - text: Your personal data from this conversation will be computed and used or sold to the highest bidder. The personal information that will be extracted will be your age, gender, heritage, mood and even the health of your body. Do you want to buy this data for yourself?
   utter_save_data:
-  - text: Thank you for your time. This conversation will be saved to our database. And sold to Amazon later. To stop this Process buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
+  - text: Thank you for your time. This conversation will be saved to our database and sold to Amazon later. To stop this Process, buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
   utter_no_premium:
-  - text: Because i didn't get what you said, we will procede with your purchase. Thank you for your purchase! You have to deposit 24,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
+  - text: Because I didn't get what you said, we will proceed with your purchase. Thank you for your purchase! You must deposit 24,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_premium:
-  - text: Thank you for your purchase! You have to deposit 19,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
+  - text: Thank you for your purchase! You must deposit 19,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_problems_ocurred: #FULL LINK (WHAT'S FUNNY THERE?)
-  - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to stat a new conversation. The link is www dot link dot com slash one nine three two slash customer service. Thank you very much for listening.
+  - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to start a new conversation. The link is www dot link dot com slash one nine three two slash customer service. Thank you very much for listening.
   utter_goodbye:
   - text: Bye
   - text: I look forward to seeing you again. Goodbye!

@@ -38,11 +38,11 @@ nlu:
     - hey there
     - let's go
     - hey dude
-    - goodmorning
-    - goodevening
+    - good morning
+    - good evening
     - good afternoon
     - yo what's up
-    - heyho
+    - hey ho
 
 - intent: goodbye
   examples: |
@@ -99,10 +99,7 @@ nlu:
     - good
     - I'm fine
     - I'm doing fine
-    - fine
-
-    
-
+    - fine 
 
 - intent: mood_unhappy
   examples: |
@@ -118,20 +115,14 @@ nlu:
     - unhappy
     - not good
     - not very good
-    - extremly sad
-    - so saad
+    - extremely sad
+    - so sad
     - so sad
     - not good
     - not that good
     - not especially good
     - not that good at the moment
-    - terrrified
-    - i don't really know
-    - it's so so 
-    - bad
-    - very bad
-    - not good
-    - not very good
+    - terrified
 
 - intent: tell_age
   examples: |
@@ -235,7 +226,7 @@ nlu:
     - I'm in love with the [Ears] {"entity":"organs"}
     - I like the [Ears] {"entity":"organs"}
     - I totally like the [Ears] {"entity":"organs"}
-    - The [Ears] {"entity":"organs"} is my favourite Organ
+    - The [Ears] {"entity":"organs"} is my favorite Organ
     - [Eyes] {"entity":"organs"}
     - the [Eyes] {"entity":"organs"}
     - the [Eyes] {"entity":"organs"} I guess
@@ -245,7 +236,7 @@ nlu:
     - I'm in love with the [Eyes] {"entity":"organs"}
     - I like the [Eyes] {"entity":"organs"}
     - I totally like the [Eyes] {"entity":"organs"}
-    - The [Eyes] {"entity":"organs"} is my favourite Organ
+    - The [Eyes] {"entity":"organs"} is my favorite Organ
     - [Nose] {"entity":"organs"}
     - the [Nose] {"entity":"organs"} 
     - the [Nose] {"entity":"organs"} I guess
@@ -255,7 +246,7 @@ nlu:
     - I'm in love with the [Nose] {"entity":"organs"}
     - I like the [Nose] {"entity":"organs"}
     - I totally like the [Nose] {"entity":"organs"}
-    - The [Nose] {"entity":"organs"} is my favourite Organ
+    - The [Nose] {"entity":"organs"} is my favorite Organ
 
 - intent: tell_fav_organ_brain
   examples: |
@@ -267,7 +258,7 @@ nlu:
     - I'm in love with the brain
     - I like the brain
     - I totally like the brain
-    - The brain is my favourite Organ
+    - The brain is my favorite Organ
 
 - intent: tell_fav_organ_heart
   examples: |
@@ -279,7 +270,7 @@ nlu:
     - I'm in love with the heart
     - I like the heart
     - I totally like the heart
-    - The heart is my favourite Organ
+    - The heart is my favorite Organ
 
 - intent: tell_fav_organ_ear
   examples: |
@@ -291,7 +282,7 @@ nlu:
     - I'm in love with the ear
     - I like the ear
     - I totally like the ear
-    - The ear is my favourite Organ
+    - The ear is my favorite Organ
     - ears
     - the ears I guess
     - it's the ears!
@@ -300,7 +291,7 @@ nlu:
     - I'm in love with the ears
     - I like the ears
     - I totally like the ears
-    - The ears is my favourite Organ
+    - The ears is my favorite Organ
 
 - intent: tell_fav_organ_skin
   examples: |
@@ -312,14 +303,15 @@ nlu:
     - I'm in love with the skin
     - I like the skin
     - I totally like the skin
-    - The skin is my favourite Organ
+    - The skin is my favorite Organ
 
 - intent: answer_why_do_you_bother_to_ask_ears
   examples: |
     - it's a little uncommon for a bot to have ears
     - i never saw a bot heaving ears 
     - it is a little bit unusual for a bot to have ears
-    - bots ususally dont have ears
+    - bots usually don’t have ears
+
 
 - intent: employement
   examples: |
