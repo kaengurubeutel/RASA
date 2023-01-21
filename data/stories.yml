@@ -1,7 +1,8 @@
 version: "3.1"
-
 stories:
 
+
+#MOOD
 - story: great mood
   steps:
   - intent: greet
@@ -19,6 +20,8 @@ stories:
   - action: utter_great
   - action: utter_ask_age
 
+
+#AGE
 - story: age
   steps:
   - action: utter_ask_age
@@ -26,73 +29,29 @@ stories:
   - action: utter_bot_age
   - action: utter_roast
 
-- story: cringe at organ path
+
+#ORGAN PATHS
+- story: cringe at organ path (heart)
   steps:
   - action: utter_roast
   - intent: tell_fav_organ_heart
   - action: utter_disagree_with_organ
   - action: utter_sell_organs
 
-- story: pleased at organ path
+- story: pleased at organ path (brain)
   steps:
   - action: utter_roast
   - intent: tell_fav_organ_brain
   - action: utter_agree_with_organ
   - action: utter_sell_organs
 
-- story: unpleased at organ path
+#EARS
+- story: flatter earnterface path
   steps:
   - action: utter_roast
   - intent: tell_fav_organ_ear
   - action: utter_agree_with_organ_ear
 
-- story: unpleased at organ path
-  steps:
-  - action: utter_roast
-  - intent: tell_fav_organ_skin
-  - action: utter_not_sell_organs
-  - action: utter_adoption
-
-- story: default organ path
-  steps:
-  - action: utter_roast
-  - intent: tell_fav_organ
-  - action: organs_form
-  - active_loop: organs_form
-  - action: utter_organ_default
-#problem with slot so default alternative part1
-- story: default sell organs affirm
-  steps: 
-  - action: utter_organ_default
-  - action: utter_sell_organs
-  - intent: affirm
-  - action: utter_confirm_purchase_default #THIS IS DIFFERENT
-  - action: utter_ask_job
-  - intent: employement
-  - action: utter_job_confirmation
-  - action: utter_adoption
-#problem with slot so default alternative part2
-- story: default sell organs deny
-  steps: 
-  - action: utter_organ_default
-  - action: utter_sell_organs
-  - intent: affirm
-  - action: utter_confirm_purchase_default #THIS IS DIFFERENT
-  - action: utter_ask_job
-  - intent: employement
-  - action: utter_job_confirmation
-  - action: utter_adoption
-
-- story: sell organs affirm
-  steps: 
-  - action: utter_sell_organs
-  - intent: affirm
-  - action: utter_confirm_purchase
-  - action: utter_ask_job
-  - intent: employement
-  - action: utter_job_confirmation
-  - action: utter_adoption
- 
 - story: sell eyes as ears replacement
   steps: 
   - action: utter_agree_with_organ_ear
@@ -113,6 +72,61 @@ stories:
   - action: utter_job_confirmation
   - action: utter_adoption
 
+#SKIN
+- story: unpleased at organ path (skin)
+  steps:
+  - action: utter_roast
+  - intent: tell_fav_organ_skin
+  - action: utter_not_sell_organs
+  - action: utter_adoption
+
+#EVERYTHING ELSE
+- story: default organ path
+  steps:
+  - action: utter_roast
+  - intent: tell_fav_organ
+  - action: organs_form
+  - active_loop: organs_form
+  - action: utter_organ_default
+
+#problem with slot so default alternative part1
+- story: default sell organs affirm
+  steps: 
+  - action: utter_organ_default
+  - action: utter_sell_organs
+  - intent: affirm
+  - action: utter_confirm_purchase_default
+  - action: utter_ask_job
+  - intent: employement
+  - action: utter_job_confirmation
+  - action: utter_adoption
+
+#problem with slot so default alternative part2
+- story: default sell organs deny
+  steps: 
+  - action: utter_organ_default
+  - action: utter_sell_organs
+  - intent: deny
+  - action: utter_get_alternative_organ_default
+
+- story: sell organs affirm
+  steps: 
+  - action: utter_sell_organs
+  - intent: affirm
+  - action: utter_confirm_purchase
+  - action: utter_ask_job
+  - intent: employement
+  - action: utter_job_confirmation
+  - action: utter_adoption
+
+- story: sell organs deny
+  steps:
+  - action: utter_sell_organs
+  - intent: deny
+  - action: utter_get_alternative_organ
+
+
+#ADOPTION
 - story: adoption deny
   steps:
   - action: utter_adoption
@@ -128,12 +142,8 @@ stories:
   - action: utter_adoption_affirm_2
   - action: utter_save_data
 
-- story: sell organs deny
-  steps:
-  - action: utter_sell_organs
-  - intent: deny
-  - action: utter_get_alternative_organ
 
+#ALTERNATIVE ORGAN
 - story: accept mechanic replacement of organ
   steps:
   - action: utter_get_alternative_organ
@@ -148,6 +158,8 @@ stories:
   - action: utter_no_undestanding
   - action: utter_save_data
 
+
+#SAVE DATA
 - story: affirm premium purchase
   steps:
   - action: utter_save_data
