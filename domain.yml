@@ -49,8 +49,8 @@ intents:
 
 responses:
   utter_adoption:
-  #???
-  - text: You seem to at least have some rationality, I guess. Do you want to adopt me? I am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So do you want to adopt me, a lonely Chatbot?
+  #check
+  #- text: You seem to at least have some rationality, I guess. Do you want to adopt me? I am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So do you want to adopt me, a lonely Chatbot?
   - text: You seem to at least have some rationality, I guess. Do you have time to listen to me all day, because I am feeling lonely these days. I don't have enough social interactions, because I’m just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So, do you want to adopt me, a lonely Chatbot?
   utter_adoption_affirm:
   - text: Do you really think that I would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a robot. Hmmm but maybe, it would be more fun that way, wouldn't it? Ok, that's fine. So let me take a second to look in the manual.
@@ -101,11 +101,11 @@ responses:
   - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have your nose. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
   - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your lungs. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
   utter_alternative_ear:
-  #MORE
-  - text: Great! You can become what is called a cyborg. And I will get to know the feeling of being alive.
+  #check
+  - text: Great! You can become what is called a cyborg. And I will get to know the feeling of being alive. So a mutual profitable Exchange!
   utter_no_undestanding:
-  #ADD CYBORG
-  - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No, you had such a good chance to improve your fragile human body. Well, you can't always force those things. Hmm. Anyways
+  #check
+  - text: I can't get used to the human way of thinking. You had such a good chance to improve your fragile human body. You could've evolved to have a superior part in you. Well, you can't always force those things. Hmm. Anyways
   utter_ask_job:
   - text: For organ liability purposes, we still need your current job. Where do you work and what is your job?
   utter_job_confirmation:
@@ -123,7 +123,7 @@ responses:
   utter_premium:
   - text: Thank you for your purchase! You must deposit 19,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_problems_ocurred: #FULL LINK (WHAT'S FUNNY THERE?)
-  - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to start a new conversation. The link is www dot link dot com slash one nine three two slash customer service. Thank you very much for listening.
+  - text: Did you have any problems with talking to me? Then write down the following link. Warning this link will not be repeated. If you want to hear this link again you have to start a new conversation. The link is www dot amazon dot com slash one nine three two slash customer service. Thank you very much for listening.
   utter_goodbye:
   - text: Bye
   - text: I look forward to seeing you again. Goodbye!

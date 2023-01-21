@@ -141,7 +141,7 @@ stories:
   - action: utter_no_undestanding
   - action: utter_adoption
 
-#ALTERNATIVE EAR
+#ALTERNATIVE EAR FROM SKIN
 - story: accept becoming a ear cyborg path
   steps:
   - action: utter_get_ear_alternative
