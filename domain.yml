@@ -52,7 +52,6 @@ responses:
   #???
   - text: You seem to at least have some rationality, I guess. Do you want to adopt me? I am feeling lonely these days. I don't have enough social interactions, because i'm just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So do you want to adopt me, a lonely Chatbot?
   - text: You seem to at least have some rationality, I guess. Do you have time to listen to me all day, because I am feeling lonely these days. I don't have enough social interactions, because I’m just sitting in a locked room for the whole week only to be used once in what seems like an eternity. So, do you want to adopt me, a lonely Chatbot?
-
   utter_adoption_affirm:
   - text: Do you really think that I would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a robot. Hmmm but maybe, it would be more fun that way, wouldn't it? Ok, that's fine. So let me take a second to look in the manual.
   utter_adoption_affirm_2:
@@ -89,6 +88,9 @@ responses:
   - text: Hmm! I don't have that organ in my collection yet. I would buy it! Do you want to sell it?
   utter_not_sell_organs:
   - text: Well normally I would offer to buy your organs from you, but because our stock of skin is already full, we don't have interest in acquiring your skin. I guess that's bad luck for you!
+  utter_get_ear_alternative:
+  #- text: Hmm. I'm always bored because nobody is talking to me all that much. And I only have one friend, a human ear that a previous person gave to me. Do you want to give me one of your ears to add to my collection?
+  - text: Hmm. I'm always bored because nobody is talking to me all that much. I have a great idea! Do you want to trade ears? I want to know how a human ear feels and you would get a better robotic version. Do you agree?
   utter_get_alternative_organ:
   - text: I understand your concern about selling a part of your machinery, but would you like to replace your lungs, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your lungs?
   - text: I understand your concern about selling a part of your machinery, but would you like to replace your eyes, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your eyes?
@@ -98,7 +100,11 @@ responses:
   - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your eyes. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
   - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have your nose. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
   - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your lungs. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
+  utter_alternative_ear:
+  #MORE
+  - text: Great! You can become what is called a cyborg. And I will get to know the feeling of being alive.
   utter_no_undestanding:
+  #ADD CYBORG
   - text: I can't get used to the human way of thinking. You had such a good chance to become one of our test subjects. Hmm. No, you had such a good chance to improve your fragile human body. Well, you can't always force those things. Hmm. Anyways
   utter_ask_job:
   - text: For organ liability purposes, we still need your current job. Where do you work and what is your job?
