@@ -78,7 +78,7 @@ stories:
   - action: utter_roast
   - intent: tell_fav_organ_skin
   - action: utter_not_sell_organs
-  - action: utter_adoption
+  - action: utter_get_ear_alternative
 
 #EVERYTHING ELSE
 - story: default organ path
@@ -126,6 +126,22 @@ stories:
   - action: utter_get_alternative_organ
 
 
+#ALTERNATIVE ORGAN
+- story: accept mechanic replacement of organ
+  steps:
+  - action: utter_get_alternative_organ
+  - intent: affirm
+  - action: utter_alternative_organ
+  - action: utter_adoption
+
+- story: deny mechanic replacement of organ
+  steps:
+  - action: utter_get_alternative_organ
+  - intent: deny
+  - action: utter_no_undestanding
+  - action: utter_adoption
+
+
 #ADOPTION
 - story: adoption deny
   steps:
@@ -140,22 +156,6 @@ stories:
   - intent: affirm
   - action: utter_adoption_affirm
   - action: utter_adoption_affirm_2
-  - action: utter_save_data
-
-
-#ALTERNATIVE ORGAN
-- story: accept mechanic replacement of organ
-  steps:
-  - action: utter_get_alternative_organ
-  - intent: affirm
-  - action: utter_alternative_organ
-  - action: utter_save_data
-
-- story: deny mechanic replacement of organ
-  steps:
-  - action: utter_get_alternative_organ
-  - intent: deny
-  - action: utter_no_undestanding
   - action: utter_save_data
 
 
