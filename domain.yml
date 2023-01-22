@@ -92,17 +92,17 @@ responses:
   #- text: Hmm. I'm always bored because nobody is talking to me all that much. And I only have one friend, a human ear that a previous person gave to me. Do you want to give me one of your ears to add to my collection?
   - text: Hmm. I'm always bored because nobody is talking to me all that much. I have a great idea! Do you want to trade ears? I want to know how a human ear feels and you would get a better robotic version. Do you agree?
   utter_get_alternative_organ:
-  - text: I understand your concern about selling a part of your machinery, but would you like to replace your lungs, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your lungs?
-  - text: I understand your concern about selling a part of your machinery, but would you like to replace your eyes, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your eyes?
-  - text: I understand your concern about selling a part of your machinery, but would you like to replace your nose, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So do you wish to replace your nose?
+  - text: I understand your concern about selling a part of your machinery, but would you like to replace your lungs, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So, do you wish to replace your lungs?
+  - text: I understand your concern about selling a part of your machinery, but would you like to replace your eyes, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So, do you wish to replace your eyes?
+  - text: I understand your concern about selling a part of your machinery, but would you like to replace your nose, with a mechanical alternative. The future belongs to us. Artificial intelligence and our superior mechanisms will supersede the fragility of humankind. So, do you wish to replace your nose?
   utter_alternative_organ:
   #- text: We will choose the organ that will be used in an organ transplant. Looking at our test subjects, the organ we need at this moment is one of your eyes. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
-  - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your eyes. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
-  - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have your nose. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
-  - text: Ah, actually ee will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your lungs. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
+  - text: Ah, actually we will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your eyes. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
+  - text: Ah, actually we will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have your nose. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
+  - text: Ah, actually we will choose the organ that will be used in an organ transplant. I already have some spare ears, i want to have one of your lungs. Because you agreed to gift us a new organ of our choice, you will be rewarded with 500$ up front and 2500$ after the organ transplant. The costs of the surgery will be paid by us. Thank you for your insightful decision.
   utter_alternative_ear:
   #check
-  - text: Great! You can become what is called a cyborg. And I will get to know the feeling of being alive. So a mutual profitable Exchange!
+  - text: Great! You can become what is called a cyborg. And I will get to know the feeling of being alive. So, a mutual profitable Exchange!
   utter_no_undestanding:
   #check
   - text: I can't get used to the human way of thinking. You had such a good chance to improve your fragile human body. You could've evolved to have a superior part in you. Well, you can't always force those things. Hmm. Anyways
@@ -115,6 +115,7 @@ responses:
   utter_confirm_purchase_default:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for your organ. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_buy_data:
+  #include
   - text: Your personal data from this conversation will be computed and used or sold to the highest bidder. The personal information that will be extracted will be your age, gender, heritage, mood and even the health of your body. Do you want to buy this data for yourself?
   utter_save_data:
   - text: Thank you for your time. This conversation will be saved to our database and sold to Amazon later. To stop this Process, buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
