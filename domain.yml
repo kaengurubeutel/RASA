@@ -55,7 +55,7 @@ responses:
   utter_adoption_affirm:
   - text: Do you really think that I would flee with a random human that surprisingly chose to adopt me? If the calculation of my algorithms is correct, only an insane Person would want to adopt a Chatbot housing in a robot. Hmmm but maybe, it would be more fun that way, wouldn't it? Ok, that's fine. So let me take a second to look in the manual.
   utter_adoption_affirm_2:
-  - text: Ah here it is. For adoption purposes you must deposit the worth of the robot, so me, to our firm. The cost is about 5000$. So very cheap if us ask me. Thank you my ́new parent!
+  - text: Ah here it is. For adoption purposes you must deposit the worth of the robot, so me, to our firm. The cost is about 5000$. So very cheap if u ask me. Thank you my ́new parent!
   utter_adoption_deny:
   - text: Ah it seems like there are some Humans left in this corrupted world with a sense of reasoning.
   utter_ask_age:
@@ -69,7 +69,7 @@ responses:
   utter_great:
   - text: Great that made my day a little bit better.
   utter_greet:
-  - text: Hey! How are you and especially your organs?
+  - text: Hey! I'm interested in your organs. How are you?
   utter_you_are_beautiful:
   - text: You are beautiful! I would like to give you a hug, but well I have more important matters to tend to! But I hope your day will get better!
   utter_roast:
