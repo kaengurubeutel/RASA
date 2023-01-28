@@ -67,6 +67,8 @@ nlu:
     - correct
     - i think so
     - agreed
+    - i guess so
+    - i guess
 
 - intent: deny
   examples: |
@@ -123,9 +125,47 @@ nlu:
     - not especially good
     - not that good at the moment
     - terrified
+    - feel
+    - i don't know how i feel
 
 - intent: tell_age
   examples: |
+    - age
+    - tell my age 
+    - want to tell my age
+    - years
+    - born in
+    - born in the year
+    - in 1970
+    - in 1971
+    - in 1972
+    - in 1973
+    - in 1974
+    - in 1975
+    - in 1976
+    - in 1977
+    - in 1978
+    - in 1979
+    - in 1980
+    - in 1981
+    - in 1982
+    - in 1983
+    - in 1984
+    - in 1985
+    - in 1986
+    - in 1987
+    - in 1987
+    - in 1989
+    - in 1990
+    - in 1991
+    - in 1992
+    - in 1993
+    - in 1994
+    - in 1995
+    - in 1996
+    - in 1997
+    - in 1998
+    - in 1999
     - i am 21 years old.
     - i am 21
     - 21
@@ -214,6 +254,7 @@ nlu:
     - what is this?
     - what is your meaning?
     - why are you here?
+    - what is your purpose?
 
 - intent: tell_fav_organ
   examples: |
@@ -259,6 +300,15 @@ nlu:
     - I like the brain
     - I totally like the brain
     - The brain is my favorite Organ
+    - head
+    - the head I guess
+    - it's the head!
+    - I totally love the head
+    - the head
+    - I'm in love with the head
+    - I like the head
+    - I totally like the head
+    - The head is my favorite Organ
 
 - intent: tell_fav_organ_heart
   examples: |
@@ -271,6 +321,7 @@ nlu:
     - I like the heart
     - I totally like the heart
     - The heart is my favorite Organ
+    - blood pump
 
 - intent: tell_fav_organ_ear
   examples: |
@@ -330,6 +381,9 @@ nlu:
     - employee of a firm
     - jobless
     - unemployed
+    - not working at the moment
+    - not working
+    - work
 
 - intent: ask_if_bot_is_ok
   examples: |
