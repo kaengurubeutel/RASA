@@ -137,6 +137,8 @@ nlu:
 - intent: tell_age
   examples: |
     - age
+    - birthday
+    - my birthday is on the
     - tell my age 
     - want to tell my age
     - years
@@ -237,6 +239,17 @@ nlu:
     - 71
     - 72
 
+- intent: ask_age
+  examples: |
+    - why should i tell you my age?
+    - why are you interested in my age?
+    - i don't want to tell my age
+    - i don't know my age
+    - why should i tell you the year i was born
+    - why should i tell you the date i was born
+    - i don't want to tell my birthday
+    - i don't know my birthday
+    - i don't like you asking about my age
 
 - intent: bot_challenge
   examples: |
@@ -261,6 +274,15 @@ nlu:
     - what is your meaning?
     - why are you here?
     - what is your purpose?
+
+- intent: ask_fav_organ
+  examples: |
+    - why should i tell you my favorite organ?
+    - why are you interested in my favorite organ?
+    - i don't want to tell my favorite organ
+    - i don't know my favorite organ
+    - i don't like you asking about my favorite organ
+    - you are weird asking about my organs
 
 - intent: tell_fav_organ
   examples: |
@@ -368,6 +390,15 @@ nlu:
     - i never saw a bot heaving ears 
     - it is a little bit unusual for a bot to have ears
     - bots usually don’t have ears
+
+- intent: ask_job
+  examples: |
+    - why should i tell you my job?
+    - why are you interested in my job?
+    - i don't want to tell my job
+    - i don't know my job
+    - i don't like you asking about my job
+    - you are weird asking about my job
 
 
 - intent: employement

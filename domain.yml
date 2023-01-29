@@ -32,6 +32,7 @@ intents:
 - bot_challenge
 - deny
 - ear_challenge
+- ask_job
 - employement
 - example_number
 - give_time
@@ -39,7 +40,9 @@ intents:
 - greet
 - mood_great
 - mood_unhappy
+- ask_age
 - tell_age
+- ask_fav_organ
 - tell_fav_organ
 - tell_fav_organ_brain
 - tell_fav_organ_heart
