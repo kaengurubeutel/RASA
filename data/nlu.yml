@@ -56,6 +56,13 @@ nlu:
     - it's broken
     - start again
     - try again
+    - new try of the conversation
+    - start a new conversation
+    - new try of the dialogue
+    - start a new dialogue
+    - begin over
+    - begin where we started
+    - return to the start
 
 - intent: goodbye
   examples: |

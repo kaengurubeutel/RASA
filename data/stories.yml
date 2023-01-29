@@ -1,6 +1,12 @@
 version: "3.1"
 stories:
 
+#RESTART
+- story: restart dialogue
+  steps:
+  - intent: restart
+  - action: utter_greet
+
 # GREET
 - story: great mood path
   steps:
