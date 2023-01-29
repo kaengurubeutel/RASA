@@ -48,6 +48,7 @@ intents:
 - tell_fav_organ_heart
 - tell_fav_organ_ear
 - tell_fav_organ_skin
+- buy_own_data
 - what_do_you_do
 
 responses:
@@ -118,10 +119,11 @@ responses:
   utter_confirm_purchase_default:
   - text: Thank you for using SCP services. We will contact you shortly and schedule a organ transplant operation for your organ. The balance of 500$ will be transfered to your family. If no family member is found, the money wil be used for my upkeep!
   utter_buy_data:
-  #include
-  - text: Your personal data from this conversation will be computed and used or sold to the highest bidder. The personal information that will be extracted will be your age, gender, heritage, mood and even the health of your body. Do you want to buy this data for yourself?
+  - text: For your interest. Your personal data from this conversation will be computed and sent to you. The personal information that will be extracted will be your age, gender, heritage, mood and even the health of your body.
+  utter_buy_own_data:
+  - text: Yes of course you can! Because there isn't effort involved in finding a buyer. Yióu will even get a discount. You have to pay 4,20$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_save_data:
-  - text: Thank you for your time. This conversation will be saved to our database and sold to Amazon later. To stop this Process, buy the Premium Version of this Conversation for only 19,99$! Do you want to proceed to buy the Premium?
+  - text: Thank you for your time. This conversation will be saved to our database and sold to Amazon later. To stop this Process, buy the Premium Version of this Conversation or you can also buy your data yourself! Do you want to proceed to buy the Premium?
   utter_no_premium:
   - text: Because I didn't get what you said, we will proceed with your purchase. Thank you for your purchase! You must deposit 24,99$ to the bank account with the number DE 72 1572 0100 0000 6431 72.
   utter_premium:

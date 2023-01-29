@@ -50,6 +50,13 @@ nlu:
     - yo what's up
     - hey ho
 
+- intent: restart
+  examples: |
+    - restart
+    - it's broken
+    - start again
+    - try again
+
 - intent: goodbye
   examples: |
     - cu
@@ -136,6 +143,10 @@ nlu:
 
 - intent: tell_age
   examples: |
+    - old
+    - older
+    - young 
+    - younger
     - age
     - birthday
     - my birthday is on the
@@ -250,6 +261,10 @@ nlu:
     - i don't want to tell my birthday
     - i don't know my birthday
     - i don't like you asking about my age
+    - i think i'm older than you
+    - i'm older than you
+    - i think you're younger than me
+    - you're younger than me
 
 - intent: bot_challenge
   examples: |
@@ -421,6 +436,18 @@ nlu:
     - not working at the moment
     - not working
     - work
+
+- intent: buy_own_data
+  examples: |
+    - i want to buy my data
+    - buy data
+    - what about a third option?
+    - i want to see my own
+    - my own data
+    - can you give me my data?
+    - can i have my data?
+    - can you show me my data?
+    - can i have my data shown?
 
 - intent: ask_if_bot_is_ok
   examples: |
